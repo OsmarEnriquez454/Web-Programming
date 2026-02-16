@@ -1,0 +1,62 @@
+body {
+  font-family: Arial;
+}
+
+.caja1 {
+  border: 2px solid red;
+  padding: 10px;
+  margin-bottom: 5px;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.busqueda input {
+  padding: 5px;
+}
+
+.caja2 {
+  border: 2px solid red;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+.fila-medio {
+  display: flex;
+  margin-bottom: 10px;
+  gap: 10px;
+}
+
+.caja3 {
+  border: 2px solid blue;
+  padding: 10px;
+  width: 200px;
+  font-size: 14px;
+}
+
+.caja4 {
+  border: 2px solid green;
+  padding: 15px;
+  flex: 2;
+}
+
+.caja4 img {
+  max-width: 30%;
+}
+
+.caja5 {
+  border: 2px solid orange;
+  padding: 15px;
+  width: 250px;
+}
+
+.footer {
+  border: 2px solid green;
+  padding: 10px;
+  margin-bottom: 5px;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

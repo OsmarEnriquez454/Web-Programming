@@ -1,0 +1,14 @@
+th {
+  background-color: green;
+  color: white;
+}
+.verde {
+  background-color: green;
+  color: white;
+}
+.resaltado {
+  background-color: pink;
+}
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}

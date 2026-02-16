@@ -1,0 +1,10 @@
+th {
+  background-color: lightblue;
+
+}
+.resaltar {
+  background-color: lightgreen;
+}
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}

@@ -1,0 +1,51 @@
+div.fondo {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  left: 200px;
+  border: 3px solid black 
+}
+div.casa {
+  width: 200px;
+  margin: 50px;
+  position: relative;
+}
+div.techo {
+  width: 220px;
+  height: 30px;
+  background: red;
+  border: 3px solid black;
+  margin-left: -10px;
+}
+div.pared {
+  width: 200px;
+  height: 150px;
+  background: gray;
+  border: 3px solid black;
+}
+.ventana {
+  width: 40px;
+  height: 40px;
+  background: blue;
+  border: 2px solid black;
+  position: absolute;
+}
+div.ventana.izquierda {
+  top: 80px;
+  left: 15px;
+}
+div.ventana.derecha {
+  top: 100px;
+  right: 10px;
+}
+div.puerta{
+  width: 50px;
+  height: 60px;
+  background: darkred;
+  border: 3px solid black;
+  position: absolute;
+  bottom: 0;
+  left: 75px;
+  text-align: center;
+  line-height: 60px;
+}
